@@ -62,7 +62,7 @@ with open('requirements.txt', 'w') as _file:
 EXCLUDE_FROM_PACKAGES = ['tests']
 
 setup(
-    name="snmpsysdescrparser",
+    name="sysdescrparser",
     version="0.1.22",
     description='SNMP sysDescr parser fork for Windows Support',
     long_description=README,
@@ -72,7 +72,7 @@ setup(
     license='MIT',
     classifiers=classifiers,
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
-    py_modules=['snmpsysdescrparser'],
+    py_modules=['sysdescrparser'],
     data_files=[],
     install_requires=requires,
     include_package_data=True,
