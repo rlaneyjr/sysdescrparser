@@ -6,7 +6,6 @@ import os
 import json
 from sysdescrparser.sysdescrparser import sysdescrparser
 
-
 def main():
     """Sample main."""
     here = os.path.dirname(os.path.abspath(__file__))
@@ -18,11 +17,11 @@ def main():
     for descr in descrs:
         sysdescr = sysdescrparser(descr['raw'])
         print('#'*80)
-        print('Vendor: %s' % sysdescr.vendor)
+        print(sysdescr.raw)
+        print('Vendor: %s ' % sysdescr.vendor)
         print('Model: %s' % sysdescr.model)
         print('OS: %s' % sysdescr.os)
         print('Version: %s' % sysdescr.version)
-
 
 if __name__ == "__main__":
 
