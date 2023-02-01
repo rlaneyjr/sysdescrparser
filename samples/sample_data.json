@@ -912,6 +912,30 @@
     },
 
     {
+        "raw" : "Huawei Versatile Routing Platform Software \nVRP (R) software, Version 8.191 (CE6857EI V200R019C10SPC800) \nCopyright (C) 2012-2020 Huawei Technologies Co., Ltd. \nHUAWEI CE6857-48S6CQ-EI",
+        "vendor" : "Huawei",
+        "os" : "VRP",
+        "model" : "CE6857EI",
+        "version" : "V200R019C10SPC800"
+    },
+
+    {
+        "raw" : "S6730-H48X6C \nHuawei Versatile Routing Platform Software \n VRP (R) software,Version 5.170 (S6730 V200R021C00SPC100) \n Copyright (C) 2007 Huawei Technologies Co., Ltd.",
+        "vendor" : "Huawei",
+        "os" : "VRP",
+        "model" : "S6730",
+        "version" : "V200R021C00SPC100"
+    },
+
+    {
+        "raw" : "S5736-S48S4X-A \nHuawei Versatile Routing Platform Software \n VRP (R) software,Version 5.170 (S5736 V200R021C00SPC100) \n Copyright (C) 2007 Huawei Technologies Co., Ltd.",
+        "vendor" : "Huawei",
+        "os" : "VRP",
+        "model" : "S5736",
+        "version" : "V200R021C00SPC100"
+    },
+
+    {
         "raw": "xxxxxxxxxxxxxxx",
         "vendor": "UNKNOWN",
         "os": "UNKNOWN",
