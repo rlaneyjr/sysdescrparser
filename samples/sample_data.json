@@ -136,6 +136,14 @@
     },
 
     {
+        "raw": "Cisco Firepower Threat Defense, Version 7.2.5.2 (Build 4), ASA Version 9.18(3)61",
+        "vendor": "CISCO",
+        "os": "FTD",
+        "model": "Firepower",
+        "version": "7.2.5.2 (Build 4)"
+    },
+
+    {
         "raw": "Cisco FirePOWER FPR-2140 Security Appliance, System Version 2.10(1.175)",
         "vendor": "CISCO",
         "os": "FTD",
