@@ -136,6 +136,14 @@
     },
 
     {
+        "raw": "Cisco FirePOWER FPR-2140 Security Appliance, System Version 2.10(1.175)",
+        "vendor": "CISCO",
+        "os": "FTD",
+        "model": "FPR-2140",
+        "version": "2.10(1.175)"
+    },
+
+    {
         "raw": "RouterOS 6.43.4 (stable) on RB750",
         "vendor": "MikroTik",
         "os": "RouterOS",
