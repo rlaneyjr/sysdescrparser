@@ -63,11 +63,11 @@ EXCLUDE_FROM_PACKAGES = ['tests']
 
 setup(
     name="sysdescrparser",
-    version="0.1.22",
+    version="0.1.23",
     description='SNMP sysDescr parser fork for Windows Support',
     long_description=README,
-    author='Yazdan',
-    author_email='yzdannn@gmail.com',
+    author='Ricky Laney',
+    author_email='rlaneyjr@gmail.com',
     url='https://github.com/rlaneyjr/sysdescrparser',
     license='MIT',
     classifiers=classifiers,

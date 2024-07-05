@@ -10,6 +10,7 @@
 
 from sysdescrparser.aruba import Aruba
 from sysdescrparser.cisco_asa import CiscoASA
+from sysdescrparser.cisco_ftd import CiscoFTD
 from sysdescrparser.cisco_ios import CiscoIOS
 from sysdescrparser.cisco_nxos import CiscoNXOS
 from sysdescrparser.cisco_iosxe import CiscoIOSXE
@@ -90,6 +91,12 @@ def sysdescrparser(sysdescr):
     # cisco asa
     #
     obj = CiscoASA(sysdescr)
+    if obj.parse():
+        return obj
+    #
+    # cisco ftd
+    #
+    obj = CiscoFTD(sysdescr)
     if obj.parse():
         return obj
     #
