@@ -27,7 +27,16 @@ class CiscoIOSXE(Cisco):
         """Parse."""
         main_version_name = "ios-xe"
 
-        misc_version_names = ["gibraltar", "fuji", "everest", "denali", ]
+        misc_version_names = [
+            "gibraltar",
+            "fuji",
+            "everest",
+            "denali",
+            "cupertino",
+            "dublin",
+            "bengaluru",
+            "iosxe",
+        ]
         misc_version_names_regex = "|".join(
             rf"\[{version_name}\]"
             for version_name in misc_version_names
