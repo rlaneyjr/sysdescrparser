@@ -34,8 +34,8 @@ from sysdescrparser.freebsd import FreeBSD
 from sysdescrparser.iij_seil import IIJSeil
 from sysdescrparser.yamaha_rtx import YamahaRTX
 from sysdescrparser.fortinet_fortios import FortiOs
+from sysdescrparser.huawei_vrp import HuaweiVRP
 from sysdescrparser.unknown import Unknown
-
 
 def sysdescrparser(sysdescr):
     """SNMP sysDescr parsing.
@@ -234,6 +234,13 @@ def sysdescrparser(sysdescr):
     # fortigate
     #
     obj = FortiOs(sysdescr)
+    if obj.parse():
+        return obj
+
+    #
+    # huawei
+    #
+    obj = HuaweiVRP(sysdescr)
     if obj.parse():
         return obj
     #
